@@ -10,7 +10,7 @@ const celsius = kelvin - 273;
 
 //Now we can use Celsius combined with a simple formula to convert our given temperature into Fahrenheit
 
-const fahrenheit = celsius * (9/5) + 32;
+let fahrenheit = celsius * (9/5) + 32;
 
 
 //Conversion from Celsius to Fahrenheit often yield a decimal number
