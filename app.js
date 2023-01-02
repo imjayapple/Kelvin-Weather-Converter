@@ -12,3 +12,12 @@ const celsius = kelvin - 273;
 
 const fahrenheit = celsius * (9/5) + 32;
 
+
+//Conversion from Celsius to Fahrenheit often yield a decimal number
+//Use the built-in method ".floor()" within JavaScript to round the Fahrenheit temperature down.
+
+fahrenheit = Math.floor(fahrenheit);
+
+//Using "console.log()" and string interpolation log the temperature in Fahrenheit to the console
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
