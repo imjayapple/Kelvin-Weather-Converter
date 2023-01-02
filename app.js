@@ -21,3 +21,15 @@ fahrenheit = Math.floor(fahrenheit);
 //Using "console.log()" and string interpolation log the temperature in Fahrenheit to the console
 
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+
+//Add a Newton to Celsius converison
+
+let newton = celsius * (33/100);
+
+//Round the resulting calculation down to the nearest whole number
+
+newton = Math.floor(newton);
+
+//Lastly, log the result to the console using string interpolation
+
+console.log(`The temperature is ${newton} degrees Newton.`);
